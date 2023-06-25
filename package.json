@@ -1,5 +1,6 @@
 {
   "name": "insert-markdown-color-snippet",
+  "publisher":"markdownColorInserter",
   "displayName": "Insert markdown color snippet",
   "description": "Insert a color code snippet in order to color your text in the acive markdown file.",
   "version": "1.0.0",
