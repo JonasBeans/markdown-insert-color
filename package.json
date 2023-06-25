@@ -2,7 +2,7 @@
   "name": "insert-markdown-color-snippet",
   "displayName": "Insert markdown color snippet",
   "description": "Insert a color code snippet in order to color your text in the acive markdown file.",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "engines": {
     "vscode": "^1.79.0"
   },
@@ -12,10 +12,12 @@
   "activationEvents": [],
   "main": "./extension.js",
   "contributes": {
-    "commands": [{
-      "command": "insert-markdown-color-snippet.insert.color.by.choice",
-      "title": "Markdown Color: Insert markdown color"
-    }]
+    "commands": [
+      {
+        "command": "insert-markdown-color-snippet.insert.color.by.choice",
+        "title": "Markdown Color: Insert markdown color"
+      }
+    ]
   },
   "scripts": {
     "lint": "eslint .",
